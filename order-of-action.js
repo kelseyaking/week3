@@ -1,7 +1,3 @@
-$(document).on("mobileinit", function() {
-     alert('Mobileinit fired');
-});
-
 $(document).on('pagecreate','#first_page', function() {
       alert('Pagecreate fired');
 });
