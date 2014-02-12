@@ -1,9 +1,11 @@
+var counter;
+
 $(document).on('pagecreate','#first_page', function() {
 //     alert('Pagecreate fired');
 });
 
 $(document).on('pageinit','#first_page',function() {
-      var counter = 1;
+     counter = 1;
 });
 
 $(document).on('pagebeforeshow','#first_page',function(event, ui)
