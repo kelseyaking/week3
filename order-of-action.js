@@ -6,10 +6,6 @@ $(document).on('pageinit','#first_page',function() {
       alert('Pageinit fired');
 });
 
-$(document).on('pageinit','#first_page',function() {
-      alert('Pageinit fired');
-});
-
 $(document).on('pagebeforeshow','#first_page',function(event, ui)
 {
 	alert('Pagebeforeshow fired');
