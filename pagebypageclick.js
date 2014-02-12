@@ -29,7 +29,7 @@ $(document).on('pagehide','#first_page',function(event, ui)
 });
 $(document).on('pagehide','#second_page',function(event, ui)
 {
-	$(#'#pageoneanchor').on('click',function(event))
+	$('#pageoneanchor').on('click',function(event))
 	{
 		alert("Hopped back to page one!");
 	});
