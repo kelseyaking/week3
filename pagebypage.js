@@ -16,7 +16,7 @@ $(document).on('pagebeforeshow','#first_page',function(event, ui)
 });
 $(document).on('pageshow','#first_page',function(event, ui)
 {
-	alert('Pageshow fired and counter is' + counter);
+	alert('Pageshow fired and counter is ' + counter);
 	counter = counter + 1;
 });
 $(document).on('pagebeforehide','#first_page',function(event, ui)
