@@ -25,5 +25,5 @@ $(document).on('pagebeforehide','#first_page',function(event, ui)
 });
 $(document).on('pagehide','#first_page',function(event, ui)
 {
-	$('#pageonetextline').append.text(' and back');
+	$('#pageonetextline').append(' and back');
 });
