@@ -6,6 +6,10 @@ $(document).on('pagecreate','#first_page', function() {
 
 $(document).on('pageinit','#first_page',function() {
      counter = 1;
+	$('#pageoneanchor').on('click',function()
+	{
+		alert("Hopped back to page one!");
+	});
 });
 
 $(document).on('pagebeforeshow','#first_page',function(event, ui)
@@ -29,8 +33,4 @@ $(document).on('pagehide','#first_page',function(event, ui)
 });
 $(document).on('pagehide','#second_page',function(event, ui)
 {
-	$('#pageoneanchor').on('click',function()
-	{
-		alert("Hopped back to page one!");
-	});
 });
