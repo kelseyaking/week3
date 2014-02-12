@@ -11,7 +11,7 @@ $(document).on('pageinit','#first_page',function() {
 $(document).on('pagebeforeshow','#first_page',function(event, ui)
 {
 	if (counter >1){
-		$('#pageonetextline').append.text(' and forth');
+		$('#pageonetextline').append(' and forth');
 	}
 });
 $(document).on('pageshow','#first_page',function(event, ui)
